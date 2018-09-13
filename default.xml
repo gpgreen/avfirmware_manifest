@@ -1,0 +1,8 @@
+<manifest>
+  <remote name="github" fetch="ssh://git@github.com/gpgreen/" />
+  <remote name="UAVCAN" fetch="ssh://git@github.com/UAVCAN/" />
+  <default remote="github" revision="refs/heads/master" sync-j="4"/>
+  <project name="AvDisplay" path="avdisplay"/>
+  <project name="libcanard" path="avdisplay/libs/libcanard" remote="UAVCAN" />
+  <project name="libuavcan" path="avdisplay/libs/libuavcan" remote="UAVCAN" />
+</manifest>
