@@ -1,7 +1,7 @@
 <manifest>
   <remote name="github" fetch="ssh://git@github.com/gpgreen/" />
   <remote name="UAVCAN" fetch="ssh://git@github.com/UAVCAN/" />
-  <remote name="socketcan" fetch="ssh://git@git.pengutronix.de/git/tools/" />
+  <remote name="socketcan" fetch="ssh://public@git.pengutronix.de/git/tools/" />
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
   <project name="libcanard" path="avdisplay/libs/libcanard" remote="UAVCAN" />
