@@ -1,10 +1,14 @@
 <manifest>
   <remote name="github" fetch="ssh://git@github.com/gpgreen/" />
-  <remote name="UAVCAN" fetch="ssh://git@github.com/UAVCAN/" />
+  <remote name="UAVCAN" fetch="https://github.com/UAVCAN/" />
   <remote name="socketcan" fetch="https://git.pengutronix.de/git/tools/" />
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
-  <project name="libcanard" path="avdisplay/libs/libcanard" remote="UAVCAN" />
-  <project name="libuavcan" path="avdisplay/libs/libuavcan" remote="UAVCAN" />
-  <project name="libsocketcan" path="avdisplay/libs/libsocketcan" remote="socketcan" />
+  <project name="libcanard" path="libs/libcanard" remote="UAVCAN"
+	   revision="refs/heads/master" />
+  <project name="libuavcan" path="libs/libuavcan" remote="UAVCAN"
+	   revision="refs/heads/master" />
+  <project name="libsocketcan" path="libs/libsocketcan"
+	   remote="socketcan"
+	   revision="refs/heads/master" />
 </manifest>
