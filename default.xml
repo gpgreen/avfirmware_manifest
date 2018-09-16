@@ -11,4 +11,5 @@
   <project name="libsocketcan" path="libs/libsocketcan"
 	   remote="socketcan"
 	   revision="refs/heads/master" />
+  <project name="avr_drivers" path="libs/avr_drivers" />
 </manifest>
