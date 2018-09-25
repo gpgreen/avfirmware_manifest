@@ -4,6 +4,7 @@
   <remote name="socketcan" fetch="https://git.pengutronix.de/git/tools/" />
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
+  <project name="AvBeagle" path="avbeagle"/>
   <project name="libcanard" path="libs/libcanard" remote="UAVCAN"
 	   revision="refs/heads/master" />
   <project name="libuavcan" path="libs/libuavcan" remote="UAVCAN"
