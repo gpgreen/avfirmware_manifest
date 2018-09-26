@@ -6,9 +6,9 @@
   <project name="AvDisplay" path="avdisplay"/>
   <project name="AvBeagle" path="avbeagle"/>
   <project name="libcanard" path="libs/libcanard" remote="UAVCAN"
-	   revision="refs/heads/master" />
+	   revision="refs/heads/master" sync-s="true" />
   <project name="libuavcan" path="libs/libuavcan" remote="UAVCAN"
-	   revision="refs/heads/master" />
+	   revision="refs/heads/master" sync-s="true" />
   <project name="libsocketcan" path="libs/libsocketcan"
 	   remote="socketcan"
 	   revision="refs/heads/master" />
