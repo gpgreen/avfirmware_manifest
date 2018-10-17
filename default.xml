@@ -13,4 +13,5 @@
 	   remote="socketcan"
 	   revision="refs/heads/master" />
   <project name="avr_drivers" path="libs/avr_drivers" />
+  <project name="ahrs" path="ahrs" />
 </manifest>
