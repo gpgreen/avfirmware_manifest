@@ -5,8 +5,8 @@
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
   <project name="AvBeagle" path="avbeagle"/>
-  <project name="libcanard" path="libs/libcanard" remote="UAVCAN"
-	   revision="refs/heads/master" sync-s="true" />
+  <project name="libcanard" path="libs/libcanard"
+	   revision="refs/heads/ahrs_uavcan" sync-s="true" />
   <project name="libuavcan" path="libs/libuavcan" remote="UAVCAN"
 	   revision="refs/heads/master" sync-s="true" />
   <project name="libsocketcan" path="libs/libsocketcan"
