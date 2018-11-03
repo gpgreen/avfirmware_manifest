@@ -18,6 +18,7 @@
   <project name="avr_drivers" path="libs/avr_drivers" />
   <project name="ahrs" path="ahrs" />
   <project name="avcompass" path="compass" />
+  <project name="avfirmware-build-tools" path="build-tools" />
   <project name="cmake-avr" path="build-tools/cmake-avr"
 	   remote="mkleemann" />
 </manifest>
