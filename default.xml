@@ -1,7 +1,10 @@
 <manifest>
   <remote name="github" fetch="ssh://git@github.com/gpgreen/" />
   <remote name="UAVCAN" fetch="https://github.com/UAVCAN/" />
-  <remote name="socketcan" fetch="https://git.pengutronix.de/git/tools/" />
+  <remote name="socketcan"
+	  fetch="https://git.pengutronix.de/git/tools/" />
+  <remote name="mkleemann"
+	  fetch="https://github.com/mkleemann/" />
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
   <project name="AvBeagle" path="avbeagle"/>
@@ -15,4 +18,6 @@
   <project name="avr_drivers" path="libs/avr_drivers" />
   <project name="ahrs" path="ahrs" />
   <project name="avcompass" path="compass" />
+  <project name="cmake-avr" path="build-tools/cmake-avr"
+	   remote="mkleemann" />
 </manifest>
