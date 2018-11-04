@@ -3,8 +3,8 @@
   <remote name="UAVCAN" fetch="https://github.com/UAVCAN/" />
   <remote name="socketcan"
 	  fetch="https://git.pengutronix.de/git/tools/" />
-  <remote name="mkleemann"
-	  fetch="https://github.com/mkleemann/" />
+<!--  <remote name="mkleemann"
+	  fetch="https://github.com/mkleemann/" /> -->
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
   <project name="AvDisplay" path="avdisplay"/>
   <project name="AvBeagle" path="avbeagle"/>
@@ -19,6 +19,7 @@
   <project name="ahrs" path="ahrs" />
   <project name="avcompass" path="compass" />
   <project name="avfirmware-build-tools" path="build-tools" />
+  <!-- cmake-avr is a fork of mkleemann -->
   <project name="cmake-avr" path="build-tools/cmake-avr"
-	   remote="mkleemann" />
+	   revision="refs/heads/programmer_enhancements" />
 </manifest>
