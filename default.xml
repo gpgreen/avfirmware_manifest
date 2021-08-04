@@ -6,8 +6,8 @@
 <!--  <remote name="mkleemann"
 	  fetch="https://github.com/mkleemann/" /> -->
   <default remote="github" revision="refs/heads/master" sync-j="4"/>
-  <project name="AvDisplay" path="avdisplay"/>
-  <project name="AvBeagle" path="avbeagle"/>
+  <project name="AvDisplay" path="avdisplay" />
+  <project name="AvBeagle" path="avbeagle" />
   <project name="libcanard" path="libs/libcanard"
 	   revision="refs/heads/ahrs_uavcan" sync-s="true" />
   <project name="libuavcan" path="libs/libuavcan" remote="UAVCAN"
@@ -19,7 +19,11 @@
   <project name="ahrs" path="ahrs" />
   <project name="avcompass" path="compass" />
   <project name="canbus-shield" path="canbus-shield" />
+  <project name="pypilot-controller-c" path="pypilot-controller"
+	   revision="refs/heads/main" />
   <project name="avfirmware-build-tools" path="build-tools" />
+  <project name="simavr_parts" path="libs/simavr_parts"
+	   revision="refs/heads/main" />
   <!-- cmake-avr is a fork of mkleemann -->
   <project name="cmake-avr" path="build-tools/cmake-avr"
 	   revision="refs/heads/programmer_enhancements" />
