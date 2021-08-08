@@ -21,6 +21,7 @@
   <project name="canbus-shield" path="canbus-shield" />
   <project name="pypilot-controller-c" path="pypilot-controller"
 	   revision="refs/heads/main" />
+  <project name="power-monitor" revision="refs/heads/main" />
   <project name="avfirmware-build-tools" path="build-tools" />
   <project name="simavr_parts" path="libs/simavr_parts"
 	   revision="refs/heads/main" />
