@@ -22,9 +22,11 @@
   <project name="pypilot-controller-c" path="pypilot-controller"
 	   revision="refs/heads/main" />
   <project name="power-monitor" revision="refs/heads/main" />
+  <project name="avr_bootloaders" revision="refs/heads/main" />
   <project name="avfirmware-build-tools" path="build-tools" />
   <project name="simavr_parts" path="libs/simavr_parts"
 	   revision="refs/heads/main" />
+  <project name="led-dimmer-boat-fw" path="led-dimmer-boat-fw" />
   <!-- cmake-avr is a fork of mkleemann -->
   <project name="cmake-avr" path="build-tools/cmake-avr"
 	   revision="refs/heads/programmer_enhancements" />
